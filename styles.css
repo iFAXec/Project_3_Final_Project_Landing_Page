@@ -23,7 +23,9 @@ span {
   font-weight: bold;
 }
 
-.first-page-container {
+.first-page-container,
+.second-page-container,
+.third-page-container {
   padding: 5%;
   width: 414px;
   height: 860px;
@@ -39,10 +41,25 @@ span {
   margin-bottom: 5%;
 }
 
-.first-page-container h2 {
+.first-page-container h2,
+.second-page-container h2,
+.third-page-container h2 {
   font-size: 3.5rem;
   line-height: 100%;
+}
+
+.first-page-container p {
+  margin-bottom: 50px;
+  line-height: 25px;
+}
+
+.first-page-container h2 {
   padding: 30px;
+}
+
+.second-page-container h2 {
+  margin-bottom: 30px;
+  text-align: left;
 }
 
 .button-purple {
@@ -61,7 +78,16 @@ span {
   transition: background-color 0.5s ease-in-out;
 }
 
-.first-page-container p {
-  margin-bottom: 50px;
-  line-height: 25px;
+.second-page-container p {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.third-page-container {
+  background: linear-gradient(to right, #fff, #8ebefb);
+}
+
+.third-page-container h2 {
+  font-weight: bold;
+  font-size: ;
 }
