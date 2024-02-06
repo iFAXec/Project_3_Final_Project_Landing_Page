@@ -119,3 +119,35 @@ span {
   bottom: 0px;
   left: 1px;
 }
+
+.workout-image-3 {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.fourth-page-container h2 {
+  font-size: 3.5rem;
+  line-height: 100%;
+}
+
+.all-exercise-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.first-exercise-container,
+.second-exercise-container,
+.third-exercise-container,
+.fourth-exercise-container {
+  background-color: #e4f0ff;
+  border-radius: 10px;
+  width: 90%;
+  height: 200px;
+  margin: 10px;
+  padding: 50px;
+}
+
+.all-exercise-container h3 {
+  font-weight: bold;
+}
